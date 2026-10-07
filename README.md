@@ -116,7 +116,7 @@ Each line is one JSON conversation:
       "role": "user",
       "content": "How do I fix this TypeScript error?",
       "code_context": [
-        {"file": "/Users/you/project/src/index.ts", "code": "const x: string = 123;"}
+        {"file": "/Users/you/project/ai-data-extractor/index.ts", "code": "const x: string = 123;"}
       ],
       "timestamp": "2026-01-16T14:30:22Z"
     },
@@ -129,7 +129,7 @@ Each line is one JSON conversation:
   ],
   "source": "cursor-composer",
   "session_id": "c1a2b3...",
-  "project_path": "/Users/you/project",
+  "project_path": "/Users/you/ai-data-extractor",
   "name": "TypeScript Type Error Fix",
   "created_at": 1705414222000
 }
